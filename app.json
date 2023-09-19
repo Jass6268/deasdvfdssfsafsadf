@@ -1,6 +1,6 @@
 {
-  "name": "Adarsh-FileStreamBot",
-  "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarsh_status_bot",
+  "name": "Angel-",
+  "description": "A Pyrogram Telegram bot to Stream Telegram files to web",
   "keywords": [
       "telegram",
       "stream",
@@ -16,7 +16,7 @@
   "repository": "https://github.com/Jass6268/Stark-Stream",
   "success_url": "/",
   "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
-  "website": "http://adarsh.tk",
+  "website": "https://github.com/Jass6268/Stark-Stream",
   "env": {
       "ENV": {
           "description": "Set this to True if you don't want to crash the bot",
@@ -36,7 +36,7 @@
       },
       "BIN_CHANNEL": {
           "description": "The BIN Channel ID. Read the readme for more info about this var"
-          
+
       },
       "DATABASE_URL": {
           "description": "MongoDB URI for saving User IDs when they first Start the Bot. We will use that for Broadcasting to them. I will try to add more features related with Database. If you need help search for a tutorial on youtbe"
@@ -52,10 +52,10 @@
           "description": "Put a Public Channel Username  without @, so every user have to Join that channel to use the bot. Must add bot to channel as Admin to work properly.IF DONT WANT KEEP VALUE AS None",
           "value":"None",
           "required": false
-          
+
       },
       "OWNER_USERNAME": {
-          "description": "Enter your username without @  example  codexmania."
+          "description": "Enter your username without @  example  adarsh."
       },
       "SLEEP_THRESHOLD": {
           "description": "Floodwait Sleep timer. Read the readme for more info about this var",
@@ -80,6 +80,11 @@
           "value": "True",
           "required": false
       },
+       "MY_PASS": {
+          "description": "Leave empty if dont need password else enter Your Password",
+          "value": "None",
+          "required": false
+      },
       "BIND_ADRESS": {
           "description": "Read the readme for more info about this var  Leave Empty  For heroku",
           "required": false
@@ -88,9 +93,9 @@
           "description": "Read the readme for more info about this var  **Leave Empty for heroku**",
           "required": false
       },
-      "SESSION_NAME": {
+      "name": {
           "description": " Session Name for Bot [ Add adarsh-goel]",
-          "value": "adarsh-goel",
+          "value": "File-To-Link",
           "required": false
       }
   },
