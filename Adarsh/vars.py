@@ -15,7 +15,7 @@ class Var(object):
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(-1001696981337)
     PORT = int(getenv('PORT', 5000))
-    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'filetolinksad-eae7b6ede5c1.herokuapp.com'))
+    BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', ''))
     OWNER_ID = int(getenv('OWNER_ID', '1875452714'))
     NO_PORT = bool(getenv('NO_PORT', True))
     APP_NAME = None
