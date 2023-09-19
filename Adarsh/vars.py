@@ -13,7 +13,7 @@ class Var(object):
     SESSION_NAME = str(getenv('SESSION_NAME', 'HBFILESTREAMER'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
-    BIN_CHANNEL = int(-1001880852863)
+    BIN_CHANNEL = int(-1001696981337)
     PORT = int(getenv('PORT', 5000))
     BIND_ADRESS = str(getenv('WEB_SERVER_BIND_ADDRESS', 'livestreamfun.xyz'))
     OWNER_ID = int(getenv('OWNER_ID', '1875452714'))
