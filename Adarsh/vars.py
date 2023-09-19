@@ -10,7 +10,7 @@ class Var(object):
     API_ID = int(5390465)
     API_HASH = str("abafb7520db145a9157b09c066f9a399")
     BOT_TOKEN = str("6049118328:AAFNM4tTdktPFI98tIUt9anCVSDTIxbnGBI")
-    SESSION_NAME = str(getenv('SESSION_NAME', 'HBFILESTREAMER'))
+    SESSION_NAME = str(getenv('SESSION_NAME', 'HBSTREAMBOT'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(-1001696981337)
